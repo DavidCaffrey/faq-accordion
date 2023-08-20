@@ -45,6 +45,10 @@ body {
   display: none;
 }
 
+.icon-container {
+  margin-left: 1rem;
+}
+
 @keyframes bounce {
   0% {
     transform: translateY(0);
