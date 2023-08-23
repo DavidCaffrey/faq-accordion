@@ -35,7 +35,7 @@ body {
 }
 
 .faq-section {
-  max-width: 260px;
+  width: 260px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -130,7 +130,39 @@ body {
   .faq-card {
     background-image: url("./images/bg-pattern-desktop.svg");
     background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: -550px -275px;
+    max-width: 920px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1rem;
   }
+
+  .faq-section{
+    width: 350px;
+    margin-left: 2rem;
+  }
+
+  .box{
+    animation: bounce 3s ease-in-out infinite;
+    position: relative;
+    top: 250px;
+    left: -90px;
+    z-index: 3000;
+
+  }
+
+  .image-section{
+    /* overflow-y: clip */
+  }
+
+  .woman-desktop{
+    position: relative;
+    top: -100px;
+    left: -80px;
+    overflow-y: clip;
+  }
+
   .woman-mobile {
     display: none;
   }
